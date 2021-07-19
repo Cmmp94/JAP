@@ -1,0 +1,28 @@
+body{
+	background-color: black;
+
+}
+
+h1{
+	background-color: yellow;
+	color: green;
+	text-align: center;
+}
+
+h2{
+	background-color: blue;
+	color: red;
+	text-align: left;
+}
+
+h3{
+	background-color: red;
+	color: black;
+	text-align: right;
+}
+
+h4{
+	background-color: gold;
+	color: brown;
+	text-align: center;
+}
