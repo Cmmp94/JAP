@@ -27,9 +27,9 @@ document.addEventListener('DOMContentLoaded', function () {
     let cantEnlacesTercerP = enlacesTercerP.length;
 
 
-    let Info1 = document.createTextNode("Número de enlaces de la página:" + cantidadEnlaces);
-    let Info2 = document.createTextNode("Direccion del penúltimo enlace:" + penultimoEnlace);
-    let Info3 = document.createTextNode("Cantidad de enlaces a http://prueba: " + enlacesAPrueba);
+    let Info1 = document.createTextNode("Número de enlaces de la página: " + cantidadEnlaces + "\n");
+    let Info2 = document.createTextNode("Direccion del penúltimo enlace: " + penultimoEnlace + "\n");
+    let Info3 = document.createTextNode("Cantidad de enlaces a http://prueba: " + enlacesAPrueba + "\n");
     let Info4 = document.createTextNode("Numero de enlaces del tercer párrafo: " + cantEnlacesTercerP);
 
     let Elemento = document.createElement("informacion");
@@ -39,7 +39,8 @@ document.addEventListener('DOMContentLoaded', function () {
     Elemento.appendChild(Info3);
     Elemento.appendChild(Info4);
 
-    document.getElementById("informacion").innerHTML = "Número de enlaces de la página:" + cantidadEnlaces;
+    
+    alert(Elemento.innerHTML);
 
 
 
