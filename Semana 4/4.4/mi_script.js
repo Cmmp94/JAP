@@ -10,16 +10,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Numero de enlaces que apuntan a http://prueba
 
+    let enlaces = document.getElementsByTagName("a");
     let enlacesAPrueba = 0;
     for (let index = 0; index < enlaces.length; index++) {
         if(enlaces[index].href == "http://prueba/"){
             enlacesAPrueba = enlacesAPrueba + 1;
         }       
-    }
-
-    
-    
-    
+    }  
     
     // Numero de enlaces del tercer párrafo
     let parrafos = document.getElementsByTagName("p");
