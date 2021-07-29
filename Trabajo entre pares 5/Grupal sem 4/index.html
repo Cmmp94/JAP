@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JJOO</title>
+    <link href="estilo/estilo.css" rel="stylesheet" />
+    <script src="scripts/script.js"></script>
+  </head>
+
+  <body>
+    <button onclick="cargarDatos(medallas_url)">
+      <strong>Cargar medallas olímpicas uruguayas</strong>
+    </button>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Sede</th>
+          <th>Deporte</th>
+          <th>Medalla</th>
+        </tr>
+      </thead>
+      <tbody id="data"></tbody>
+    </table>
+
+    <img class="center" src="img/jjoo.svg" alt="logo de los juegos olímpicos" />
+  </body>
+</html>
